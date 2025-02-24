@@ -8,6 +8,12 @@ int main() {
 			if (j <= 5 && i == 1) {
 				printf(" * ");
 			}
+			else if (i <= 5 && j == 5 || i <= 5 && j == 1) {
+				printf(" * ");
+			}
+			else if (i == 5) {
+				printf(" * ");
+			}
 			else {
 				printf("   ");
 			}
